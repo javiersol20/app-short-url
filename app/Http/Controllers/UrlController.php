@@ -15,7 +15,7 @@ class UrlController extends Controller
         {
 
             return redirect()->away($url->url);
-            
+
         }else{
             abort(404);
         }
